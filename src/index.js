@@ -3,18 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hero from './firsttaskApp' 
-import GreetingElementwithProp from './firsttaskproop';
-import AppColor from './Appbackgroundcolor';
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Calculator from './Calculator'; // You can keep this import if you're using it elsewhere
+
+const root = ReactDOM.createRoot(document.getElementById('root')); // Correct placement here
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Hero />
-    <GreetingElementwithProp msg="Hi its Wednesday"/>  
-     <AppColor heading="This is first element" lbl="Name :"  color="green"/> 
-     <AppColor heading="This is second element" lbl="Name :"  color="blue"/>
-     <AppColor heading="This is third third element" lbl="Name :"  color="Yellow"/>
+    <Calculator/>
+    <App />
   </React.StrictMode>
 );
 
