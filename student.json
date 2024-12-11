@@ -1,0 +1,22 @@
+{
+    "student1":{
+        "name":"Alex",
+        "age":"21",
+        "qualification":"Bachelor",
+        "email":"alexrajdhami611@gmail.com", "id":1
+
+
+    },
+    "student2":{
+        "name":"manoj",
+        "age":"25",
+        "qualification":"sports",
+        "email":"manoj123@gmail.com", "id":2
+    },
+    "student3":{
+        "name":"bishal",
+        "age":"28",
+        "qualification":"A-level",
+        "email":"bishal3@gmail.com", "id":3
+    }
+}
